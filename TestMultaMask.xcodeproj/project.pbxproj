@@ -168,6 +168,11 @@
 				TargetAttributes = {
 					EE93EAE31AC2B23700C5428A = {
 						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					EE93EAFC1AC2B23700C5428A = {
 						CreatedOnToolsVersion = 6.2;
@@ -346,6 +351,7 @@
 				INFOPLIST_FILE = TestMultaMask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "da20cdb7-fcc0-4412-82f7-700c5e2e78e2";
 			};
 			name = Debug;
 		};
@@ -356,6 +362,7 @@
 				INFOPLIST_FILE = TestMultaMask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "da20cdb7-fcc0-4412-82f7-700c5e2e78e2";
 			};
 			name = Release;
 		};
